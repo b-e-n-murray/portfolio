@@ -5,6 +5,7 @@ function App(): JSX.Element {
   return (
     <>
       <h1 className="title">Portfolio</h1>
+      <p className="header">Featured Projects</p>
       <Carousel />
     </>
   );

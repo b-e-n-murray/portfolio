@@ -10,12 +10,49 @@
   text-align: center;
 }
 
+.header {
+  color: rgb(250, 250, 250);
+  text-align: center;
+}
+
 .all-projects {
   display: flex;
 }
 
+.all-carousel {
+  display: contents
+}
+
+.carousel {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  width: auto;
+  height: 40vh;
+  padding-top: 10px;
+  display: flow-root
+}
+
+.slide {
+}
+
+.car-btn {
+  background-color: rgb(28, 31, 31);
+  text-align: center;
+  color: aliceblue;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  box-shadow: white 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: center;
+  justify-content: center;
+}
+
 .proj-item {
-  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .app-icons {
@@ -28,9 +65,9 @@
 }
 
 .app-icons:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   transition: 1s ease;
 }
 
