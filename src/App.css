@@ -20,19 +20,23 @@
 }
 
 .all-carousel {
-  display: contents
+  display: contents;
 }
 
 .carousel {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
   width: auto;
-  height: 40vh;
   padding-top: 10px;
-  display: flow-root
+  background-color: chocolate;
 }
 
-.slide {
+
+
+.nav-btns {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .car-btn {
@@ -51,8 +55,9 @@
 }
 
 .proj-item {
-  justify-content: center;
-  align-self: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .app-icons {
